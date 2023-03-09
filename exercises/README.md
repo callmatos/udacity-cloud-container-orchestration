@@ -7,11 +7,11 @@ The current folder conatins the following starter code for the classroom exercis
 ├── go-helloworld      # Docker and Kubernetes exercise
 │   ├── README.md
 │   └── main.go
-├── manifests
-│   ├── configmap.yaml
-│   ├── deployment.yaml
-│   ├── namespace.yaml
-│   └── service.yaml
+├── manifests           # yaml files to configuration Kubernet cluster
+│   ├── configmap.yaml  # yaml configuration information
+│   ├── deployment.yaml # yaml deployment of image, spec
+│   ├── namespace.yaml  # yaml definition of ns
+│   └── service.yaml    # yaml to definition of service (port etc)
 └── python-helloworld  # Docker walkthrough code  
     ├── app.py
     └── requirements.txt
