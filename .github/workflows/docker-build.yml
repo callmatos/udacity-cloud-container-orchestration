@@ -48,4 +48,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: ${{ steps.docker_meta.outputs.tags }}
+          labels: ${{ steps.docker_meta.outputs.labels }}
           #tags: ${{secrets.DOCKERHUB_USERNAME}}/${{secrets.DOCKERHUB_REPOSITORY}}:v1.1.0
