@@ -29,7 +29,7 @@ def metrics():
 def hello():
     app.logger.info('Main request successfull')
 
-    return "Hello World!"
+    return "Hello World! - Charles to CI/CD Environment"
 
 if __name__ == "__main__":
     ## stream logs to a file
