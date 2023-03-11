@@ -36,8 +36,8 @@ jobs:
       - name: Build and Push
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ../../solutions/python-helloworld/Dockerfile
+          context: ../../solutions/python-helloworld
+          file: ./Dockerfile
           platforms: linux/amd64
           push: true
           tags: ${{secrets.DOCKERHUB_USERNAME}}/${{secrets.DOCKERHUB_REPOSITORY}}:v1.1.0
