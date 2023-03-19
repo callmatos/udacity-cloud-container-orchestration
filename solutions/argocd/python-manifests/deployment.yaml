@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: callmatos/udacity-container:v1.1.0 
+      - image: callmatos/udacity-container:main
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
