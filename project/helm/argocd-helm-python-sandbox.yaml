@@ -8,10 +8,10 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   project: default
-source:
-  helm:
-    valueFiles:
-      - values.yaml
-  path: project/helm/python-helloworld
-  repoURL: https://github.com/callmatos/udacity-cloud-container-orchestration
-  targetRevision: HEAD
+  source:
+      helm:
+        valueFiles:
+        - values.yaml
+      path: project/helm/python-helloworld
+      repoURL: https://github.com/callmatos/udacity-cloud-container-orchestration
+      targetRevision: HEAD
