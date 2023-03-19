@@ -2,7 +2,7 @@ namespace:
   name: python-sandbox
 
 service:
-  port: 80
+  port: 8080
   type: ClusterIP
 
 image:
