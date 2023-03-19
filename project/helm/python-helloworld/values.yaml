@@ -1,0 +1,9 @@
+namespace:
+  name: python-sandbox
+
+image:
+  repository:
+    callmatos/udacity-container
+  tag: main
+
+replicaCount: 3

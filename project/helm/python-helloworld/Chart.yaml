@@ -1,0 +1,12 @@
+apiVersion: v2
+name: python-helloworld
+description: Helm to install a Python Helloworld application on Kubernet
+keywords:
+  - python
+  - helloworld
+  - ci/cd
+  - multiply-deploy
+version: 1.0.0
+maintainers:
+  - name: callmatos
+    email: callmatos@gmail.com
