@@ -1,4 +1,4 @@
-apiVersion: v2
+apiVersion: v1
 name: python-helloworld
 description: Helm to install a Python Helloworld application on Kubernet
 keywords:
