@@ -16,3 +16,6 @@ resources:
     memory: 256Mi
 
 replicaCount: 5
+
+configmap:
+  data: "version: main"
