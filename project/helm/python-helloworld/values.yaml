@@ -4,6 +4,7 @@ namespace:
 image:
   repository:
     callmatos/udacity-container
-  tag: main
+  tag: 
+    main
 
 replicaCount: 3
