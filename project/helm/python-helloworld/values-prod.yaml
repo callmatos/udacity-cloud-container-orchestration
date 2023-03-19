@@ -1,8 +1,18 @@
 namespace:
   name: python-prod
 
+service:
+  port: 80
+  type: ClusterIP
+ 
 image:
   repository: callmatos/udacity-container
   tag: main
+  pullPolicy: IfNotPresent
+
+resources:
+  requests:
+    cpu: 70m
+    memory: 256Mi
 
 replicaCount: 5

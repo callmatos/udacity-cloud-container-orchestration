@@ -1,8 +1,18 @@
 namespace:
   name: python-sandbox
 
+service:
+  port: 80
+  type: ClusterIP
+
 image:
   repository: callmatos/udacity-container
   tag: main
+  pullPolicy: IfNotPresent
+  
+resources:
+  requests:
+    cpu: 50m
+    memory: 256Mi
 
 replicaCount: 3
