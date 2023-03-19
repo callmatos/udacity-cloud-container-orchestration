@@ -8,7 +8,8 @@ metadata:
   namespace: demo
 spec:
   ports:
-  - port: 8111
+  - name: http
+    port: 80
     protocol: TCP
     targetPort: 8111
     nodePort: 30009
