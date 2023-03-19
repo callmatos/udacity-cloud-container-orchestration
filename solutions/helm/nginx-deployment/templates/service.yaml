@@ -11,7 +11,6 @@ spec:
   - port: {{ .Values.service.port }} 
     protocol: TCP
     targetPort: {{ .Values.service.port }}
-    nodePort: {{ .Values.service.nodePort}}
   selector:
     app: nginx
     tag: alpine

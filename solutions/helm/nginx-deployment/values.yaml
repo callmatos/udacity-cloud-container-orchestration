@@ -3,8 +3,7 @@ namespace:
  
 service:
   port: 8111
-  type: NodePort
-  nodePort: 30009
+  type: ClusterIP
 
 image:
   repository: nginx 
