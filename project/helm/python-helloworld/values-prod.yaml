@@ -1,2 +1,8 @@
 namespace:
   name: python-prod
+
+image:
+  repository: callmatos/udacity-container
+  tag: main
+
+replicaCount: 5
