@@ -1,2 +1,8 @@
 namespace:
   name: prod 
+
+image:
+  repository: callmatos/udacity-container
+  tag: v1.1.0
+
+replicaCount: 3
